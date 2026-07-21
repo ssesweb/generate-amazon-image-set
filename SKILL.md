@@ -5,7 +5,7 @@ description: 规划亚马逊商品套图、编写逐版位生成说明，并在 
 
 # 亚马逊套图生成规范 / Generate Amazon Image Set
 
-> 版本 / Version: v1.1.0  
+> 版本 / Version: v1.2.0
 > 规范整理与维护 / Curated and maintained by: Tong Li（同力 / QuietPhoenix）
 
 ## 版权、商标与发布信息 / Copyright, trademarks, and publication
@@ -115,6 +115,12 @@ description: 规划亚马逊商品套图、编写逐版位生成说明，并在 
 - 生图后的成图审核。
 
 审核状态只允许使用 `PASS`、`FAIL` 和 `BLOCKED`。只有全部硬门槛通过、必要检查无阻塞且质量评分达标时，才允许输出 `QUALIFIED`。
+
+## 已验证案例 / Validated example
+
+需要查看一套从商品参考、事实锁、MAIN 返工到 Listing 和 PC A+ 验收的完整示例时，读取 [example-mini-straw-hat.md](references/example-mini-straw-hat.md)。
+
+案例用于展示证据约束、版位分工和失败返工方式，不把特定模型、接口或生成结果当作通用事实。不得跳过当前商品的事实锁，直接复制案例中的尺寸、材质或版位结论。
 
 ## 必须交付的内容 / Required deliverables
 
